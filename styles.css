@@ -44,7 +44,7 @@ body #container #search-box #submit {
   float: right;
 }
 body #container #result {
-  overflow: scroll;
+  overflow-y: auto;
   height: 85%;
   width: 100%;
 }
@@ -64,9 +64,6 @@ body #container #result #word-pos #pos {
 body #container #result #meaning {
   text-align: left;
   list-style-position: inside;
-}
-body #container #result #meaning li::after {
-  content: "";
 }
 body #author {
   margin: 20px;

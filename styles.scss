@@ -42,7 +42,7 @@ body {
       }
     }
     #result {
-      overflow: scroll;
+      overflow-y: auto;
       height: 85%;
       width: 100%;
       #word-pos {
@@ -63,9 +63,7 @@ body {
       #meaning{
         text-align: left;
         list-style-position: inside;
-        li::after{
-            content: "";
-        }
+        
       }
     }
   }
