@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  background-color: lightblue;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body #container {
+  background-color: white;
+  height: 50%;
+  width: 40%;
+  padding: 15px;
+}
+body #container #search-box {
+  min-height: 20px;
+  width: 100%;
+  padding-bottom: 5px;
+  height: 15%;
+}
+body #container #search-box #input-word {
+  font-size: 4vh;
+  height: 100%;
+  width: 68%;
+}
+body #container #search-box #submit {
+  font-size: 4vh;
+  height: 100%;
+  width: 30%;
+  float: right;
+}
+body #container #result {
+  overflow: scroll;
+  height: 85%;
+  width: 100%;
+}
+body #container #result #word-pos {
+  border-bottom: 2px solid darkblue;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+body #container #result #word-pos #word {
+  font-family: "Times New Roman";
+  display: inline;
+  margin-right: 10px;
+}
+body #container #result #word-pos #pos {
+  display: inline;
+}
+body #container #result #meaning {
+  text-align: left;
+  list-style-position: inside;
+}
+body #container #result #meaning li::after {
+  content: "";
+}
+body #author {
+  margin: 20px;
+}/*# sourceMappingURL=styles.css.map */
